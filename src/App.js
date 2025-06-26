@@ -65,7 +65,7 @@ function App() {
               >
                 <h2 className="text-lg font-semibold">{product.name}</h2>
                 <p className="text-sm text-gray-500">{product.category}</p>
-                <p className="text-indigo-600 font-bold">${product.price}</p>
+                <p className="text-indigo-600 font-bold">{product.price}</p>
               </div>
             ))
           ) : (
